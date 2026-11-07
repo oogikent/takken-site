@@ -10,13 +10,20 @@ section{background:var(--card);border-radius:20px;padding:20px 22px;margin:14px 
 h1{font-size:22px;margin:0 0 4px}h2{font-size:17px;margin:0 0 6px}p,li{font-size:15px}.muted{color:var(--muted);font-size:13px}a{color:var(--accent)}
 </style></head><body><main>
 <h1>プライバシーポリシー</h1>
-<p class="muted">アプリ「宅建士試験 合格対策」（以下「本アプリ」）／制定日：2026年11月7日</p>
-<section><h2>集める情報</h2><p>本アプリは、氏名・メールアドレス・位置情報・端末の識別子・利用状況などの<strong>個人情報や利用データを一切収集しません</strong>。アカウント登録もありません。</p></section>
+<p class="muted">アプリ「宅建士試験 合格対策」（以下「本アプリ」）／制定日：2026年11月7日／改定日：2026年11月7日(Pro と解説動画を追加)</p>
+<section><h2>集める情報</h2><p>本アプリは、氏名・メールアドレス・位置情報・端末の識別子・利用状況などの<strong>個人情報や利用データを収集しません</strong>。アカウント登録もありません。有償版「Pro」の「AIに質問」を使ったときだけ、下の「AIに質問(Pro)」のとおり、質問の文などを送ります。</p></section>
 <section><h2>端末に保存する情報</h2><p>問題の定着度、過去問の得点、学習した日、学習プランの答え、設定などの学習記録は、<strong>お使いの端末の中</strong>に保存されます。開発者や第三者に送信されることはありません。アプリを削除すると記録も消えます。</p>
 <p>設定で「iCloud で共有する」をオンにした場合は、同じ Apple ID の iPhone・iPad と記録を共有するため、学習記録が<strong>ご自身の iCloud</strong>に保存されます。開発者がその内容を見ることはできません。</p></section>
 <section><h2>通信について</h2><p>本アプリが通信するのは、次の場合だけです。</p><ul>
 <li>「公式サイトを開く」を押したとき：一般財団法人 不動産適正取引推進機構のウェブサイトを表示します。過去問のPDFは、利用者がご自身でダウンロードし、「ファイルから選ぶ」で端末の中に取り込みます。開発者のサーバーは経由しません。</li>
-<li>iCloud での共有をオンにしたとき：Apple の iCloud と記録をやりとりします。</li></ul></section>
+<li>iCloud での共有をオンにしたとき：Apple の iCloud と記録をやりとりします。</li>
+<li>Pro の購入・復元・加入の確認のとき：App Store(Apple)とやり取りします。お支払いの情報は Apple が扱い、開発者は受け取りません。</li>
+<li>Pro の解説動画を見る・保存するとき：開発者の中継サーバー(Cloudflare Workers)から音声と画像を受け取ります。加入を確かめるために App Store の取引番号を送ります。</li>
+<li>Pro の「AIに質問」を使うとき：下の「AIに質問(Pro)」のとおりです。</li></ul></section>
+<section><h2>AIに質問(Pro)</h2><p>「AIに質問」は、はじめて使う前にアプリの中で内容を示し、同意をいただいてから使えます。同意は設定の「Pro」からいつでも取り消せます。</p><ul>
+<li><strong>送るもの</strong>:利用者が書いた質問の文とそれまでの会話、そのとき見ている問題・用語・解説の文(アプリの教材)、Pro の加入を確かめるための App Store の取引番号。名前・メールアドレス・学習の記録は送りません。</li>
+<li><strong>送り先</strong>:開発者の中継サーバー(Cloudflare, Inc. の Cloudflare Workers)を通して、Anthropic PBC(AI「Claude」の提供元)に送ります。質問の難しさを見分けるために、質問の文だけを TypeSafe AI(判定用のAI「Jev」の提供元)にも送ることがあります。加入の確認のために、取引番号を Apple に問い合わせます。</li>
+<li><strong>保存</strong>:中継サーバーでは会話を保存しません。保存するのは、月ごとの利用回数(取引番号にひもづけた数字だけ。約40日で消えます)と、加入状況の一時的な記録(30分)だけです。送った内容は、Anthropic と TypeSafe AI のそれぞれの方針に従って扱われます。どちらも、送った内容をAIの学習に使わないことを方針としていますが、安全のために一定期間保存されることがあります。詳しくは <a href="https://www.anthropic.com/legal/privacy">Anthropic のプライバシーポリシー</a>、<a href="https://typesafe.ai/legal/privacy-policy">TypeSafe AI のプライバシーポリシー</a>をご覧ください。</li></ul></section>
 <section><h2>通知</h2><p>リマインド通知は、端末の中で時刻を予約して表示するものです。通知のために情報を外部へ送ることはありません。</p></section>
 <section><h2>解析・広告</h2><p>アクセス解析ツール、広告、トラッキングは使用していません。</p></section>
 <section><h2>変更とお問い合わせ</h2><p>このポリシーを変更する場合は、このページでお知らせします。お問い合わせは<a href="https://docs.google.com/forms/d/e/1FAIpQLSePnGgl8yR8f6zsKNSoALif62OonYb3RI-8zRF4z6YxUaV3Dg/viewform">お問い合わせフォーム</a>（<a href="support.html">サポートページ</a>）からお願いします。お問い合わせは、Google LLC が提供する Google フォームで受け付けています。ご記入いただいた内容とメールアドレスは、お問い合わせへの回答のためだけに利用し、それ以外の目的には使用しません。</p></section>
